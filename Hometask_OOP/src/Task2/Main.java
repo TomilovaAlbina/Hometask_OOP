@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String text = ":(";
+        String text = "проверка спам2";
         SpamAnalyzer spamAnalyzer = new SpamAnalyzer(new String[]{"спам", "спам2", "спам3"});
         NegativeTextAnalyzer negativeTextAnalyzer = new NegativeTextAnalyzer();
         TooLongTextAnalyzer tooLongTextAnalyzer = new TooLongTextAnalyzer(10);
